@@ -145,5 +145,13 @@ xmlAliasData += '    <Map Name=\"_3_Edit\" Link=\"Tutorials/CompareFeature/3_Edi
 xmlAliasData += '    <Map Name=\"_4_IdPriority\" Link=\"Tutorials/CompareFeature/4_IdPriority.htm\" ResolvedId=\"1167\" />';
 xmlAliasData += '    <Map Name=\"_5_treatmentPoly\" Link=\"Tutorials/CompareFeature/5_treatmentPoly.htm\" ResolvedId=\"1168\" />';
 xmlAliasData += '    <Map Name=\"_6_Compare\" Link=\"Tutorials/CompareFeature/6_Compare.htm\" ResolvedId=\"1169\" />';
+xmlAliasData += '    <Map Name=\"CaseStudies\" Link=\"AboutIFTDSS/CaseStudies.htm\" ResolvedId=\"1172\" />';
+xmlAliasData += '    <Map Name=\"Test\" Link=\"AboutIFTDSS/Test.htm\" ResolvedId=\"1173\" />';
+xmlAliasData += '    <Map Name=\"GB_ModifyLandfireData\" Link=\"Concepts/GB_ModifyLandfireData.htm\" ResolvedId=\"1174\" />';
+xmlAliasData += '    <Map Name=\"GB_Overview\" Link=\"Concepts/GB_Overview.htm\" ResolvedId=\"1175\" />';
+xmlAliasData += '    <Map Name=\"UsingMasks\" Link=\"Concepts/UsingMasks.htm\" ResolvedId=\"1176\" />';
+xmlAliasData += '    <Map Name=\"AccountPassword\" Link=\"GetStarted/AccountPassword.htm\" ResolvedId=\"1177\" />';
+xmlAliasData += '    <Map Name=\"AccountProfile\" Link=\"GetStarted/AccountProfile.htm\" ResolvedId=\"1178\" />';
+xmlAliasData += '    <Map Name=\"FTEMAbout\" Link=\"PCMonitoring/FTEMAbout.htm\" ResolvedId=\"1179\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);
