@@ -309,7 +309,7 @@ MadCap.WebHelp=MadCap.CreateNamespace("WebHelp");MadCap.WebHelp.HelpSystem=funct
 $.noConflict(true);
 })();
 
-var helpSystemName = "index.htm";
+var helpSystemName = "Default.htm";
 
 //    Syntax:
 //    function MadCap.OpenHelp(id, skinName, searchQuery, firstPick)
@@ -360,7 +360,7 @@ var helpSystemName = "index.htm";
 
 (function ()
 {
-var helpSystemName = "index.htm";
+var helpSystemName = "Default.htm";
 
     MadCap.OpenHelp = function (id, skinName, searchQuery, firstPick, pathToHelpSystem)
     {
