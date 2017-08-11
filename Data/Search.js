@@ -1,1 +1,0 @@
-define({r:0.5,st:'Stem',n:1,t:[0,75],u:['../content/aboutiftdss/aboutiftdss.htm'],s:['+','determin','logout','sort'],p:[['+',7],['acres',85],['area',45],['button',38],['copy',18],['drawn',38],['fire',26],['government',94],['in',93],['layers',44],['minutes',14],['of',78],['polygons',47],['running',27],['stands',81],['the',45],['tools',84],['we',83],['your',90]]});
