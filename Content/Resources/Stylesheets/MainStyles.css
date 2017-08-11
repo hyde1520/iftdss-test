@@ -1,12 +1,13 @@
-@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
 /*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
 
 body
 {
 	color: #404040;
 	font-family: Arial, Avenir, Myriad;
 	font-size: 1em;
-	line-height: 1.7em;
+	line-height: 1.3em;
 }
 
 a,
@@ -84,7 +85,7 @@ div.ImagesFloatRight
 
 [class^=notification]
 {
-	width: 90%;
+	width: 65%;
 	margin: 12px;
 	/* Relative positioning on the parent
 	notification div allows us to absolutely 
@@ -197,7 +198,7 @@ notification divs */
 div.quotation
 {
 	background-color: #e1e1e1;
-	background-image: url('../Images/QuotationMark_orange.png');
+	background-image: url('../images/quotationmark_orange.png');
 	background-repeat: no-repeat;
 	background-position: top left;
 	border-color: #b3b3b3;
@@ -235,6 +236,7 @@ h1
 	margin-bottom: 8px;
 	padding-bottom: 10px;
 	margin-top: 30px;
+	line-height: normal;
 }
 
 h1.Appendix
@@ -303,15 +305,15 @@ MadCap|dropDown
 {
 	margin-bottom: 6px;
 	margin-top: 6px;
-	mc-closed-image: url('../Images/DropDownClosed_orange.png');
-	mc-open-image: url('../Images/DropDownOpen_orange.png');
+	mc-closed-image: url('../images/droparrowright.png');
+	mc-open-image: url('../images/droparrowdown.png');
 }
 
 MadCap|dropDown.SecondLevel
 {
 	margin-left: 10px;
-	mc-closed-image: url('../Images/DropDownClosedSecondLevel_orange.png');
-	mc-open-image: url('../Images/DropDownOpenSecondLevel_orange.png');
+	mc-closed-image: url('../images/droparrowright.png');
+	mc-open-image: url('../images/droparrowdown.png');
 }
 
 MadCap|dropDownBody
@@ -332,8 +334,11 @@ MadCap|dropDownHead
 MadCap|dropDownHotspot
 {
 	color: #404040;
-	font-size: 1.0em;
-	font-weight: bold;
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 20px;
+	line-height: normal;
 }
 
 MadCap|dropDownHotspot:hover
@@ -605,7 +610,7 @@ p.TOCHeading
 
 span.Emphasis
 {
-	font-weight: bold;
+	font-style: italic;
 }
 
 span.UIcomponent
@@ -665,7 +670,7 @@ ul
 
 ul.FirstLevelLessIndentation
 {
-	list-style-image: url('../Images/Bullet1.png');
+	list-style-image: url('../images/bullet1.png');
 	margin-left: -10px;
 }
 
@@ -1076,18 +1081,18 @@ html.templateTopic div.sideContent
 
 	ul
 	{
-		list-style-image: url('../Images/Bullet1Print.eps');
+		list-style-image: url('../images/bullet1print.png');
 	}
 
 	ul.FirstLevelLessIndentation
 	{
-		list-style-image: url('../Images/Bullet1Print.eps');
+		list-style-image: url('../images/bullet1print.png');
 		margin-left: 30px;
 	}
 
 	ul ul
 	{
-		list-style-image: url('../Images/Bullet2Print.eps');
+		list-style-image: url('../images/bullet2print.png');
 		margin-left: 30px;
 	}
 }
@@ -1117,7 +1122,7 @@ html.templateTopic div.sideContent
 
 html.FieldLeveltopics
 {
-	mc-master-page: url('../MasterPages/FieldLevelTopics.flmsp');
+	mc-master-page: url('../masterpages/fieldleveltopics.flmsp');
 }
 
 img.button	/*will apply only to print*/
